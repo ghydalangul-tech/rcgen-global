@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/ghydalangu1-tech/rcgen-global/blob/main/assets/images/rcgen_logo.webp?raw=1" alt="RCGEN Global Logo" width="180"/></p>
+https://github.com/ghydalangu1-tech/rcgen-global/blob/main/assets/images/rcgen_logo.webp?raw=true
   
 
 # 🌐 RCGEN Global
