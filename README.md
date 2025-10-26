@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/rcgen_logo.webp" alt="RCGEN Global Logo" width="160"/>
+</p>
+  
 
 # 🌐 RCGEN Global
 
