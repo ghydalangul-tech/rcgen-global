@@ -1,0 +1,1 @@
+class VolunteerModel { final String name; final String phone; VolunteerModel({required this.name, required this.phone}); }

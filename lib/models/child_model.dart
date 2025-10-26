@@ -1,0 +1,1 @@
+class ChildModel { final String name; final int age; ChildModel({required this.name, required this.age}); }
