@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/rcgen_logo.webp" alt="RCGEN Global Logo" width="160"/>
+  <img src="https://raw.githubusercontent.com/ghydalangu1-tech/rcgen-global/main/assets/rcgen_logo.webp" alt="RCGEN Global Logo" width="180"/>
 </p>
   
 
