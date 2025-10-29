@@ -62,8 +62,8 @@ class RcgenGlobalApp extends StatelessWidget {
         ),
         // ✅ Child Registration button
         ListTile(
-          leading: Icon(Icons.child_care),
-          title: Text('Child Registration'),
+          leading: const Icon(Icons.child_care),
+          title: const Text('child Registration'),
           onTap: () {
             Navigator.of(context).pop();
             Navigator.of(context).push(
