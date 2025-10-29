@@ -45,7 +45,38 @@ class RcgenGlobalApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: Scaffold(
+  appBar: AppBar(
+    title: const Text('RCGEN Global'),
+  ),
+  drawer: Drawer(
+    child: ListView(
+      padding: EdgeInsets.zero,
+      children: const [
+        DrawerHeader(
+          decoration: BoxDecoration(color: Colors.blue),
+          child: Text(
+            'RCGEN Global',
+            style: TextStyle(color: Colors.white, fontSize: 24),
+          ),
+        ),
+        // ✅ Child Registration button
+        ListTile(
+          leading: Icon(Icons.child_care),
+          title: Text('Child Registration'),
+          onTap: () {
+            Navigator.of(context).pop();
+            Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => ChildRegistrationPage()),
+            );
+          },
+        ),
+      ],
+    ),
+  ),
+  body: const HomeScreen(),
+),
+
     );
   }
 }
