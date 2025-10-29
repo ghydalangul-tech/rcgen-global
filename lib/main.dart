@@ -1,4 +1,4 @@
-import 'pages/child_registration.dart';
+import 'screens/child_registration.dart';
 import 'package:flutter/material.dart';
 
 void main() {
