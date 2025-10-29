@@ -10,7 +10,7 @@ class RcgenGlobalApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialAppreturn MaterialApp(
+    return  MaterialApp(
   title: 'RCGEN Global',
   theme: ThemeData(
     primarySwatch: Colors.blue,
