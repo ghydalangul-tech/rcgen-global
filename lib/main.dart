@@ -10,7 +10,37 @@ class RcgenGlobalApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(home: Scaffold(
+  appBar: AppBar(
+    title: const Text('RCGEN Global'),
+  ),
+  drawer: Drawer(
+    child: ListView(
+      padding: EdgeInsets.zero,
+      children: [
+        const DrawerHeader(
+          decoration: BoxDecoration(color: Colors.blue),
+          child: Text('RCGEN Global', style: TextStyle(color: Colors.white, fontSize: 24)),
+        ),
+
+        // ✅ ✅ ✅ ADD THIS BUTTON
+        ListTile(
+          leading: const Icon(Icons.child_care),
+          title: const Text('Child Registration'),
+          onTap: () {
+            Navigator.of(context).pop();
+            Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const ChildRegistrationPage()),
+            );
+          },
+        ),
+
+      ],
+    ),
+  ),
+  body: const HomeScreen(),
+),
+
       title: 'RCGEN Global',
       theme: ThemeData(
         primarySwatch: Colors.blue,
