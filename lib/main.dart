@@ -14,7 +14,11 @@ class RcgenGlobalApp extends StatelessWidget {
   appBar: AppBar(
     title: const Text('RCGEN Global'),
   ),
-  drawer: Drawer(
+  drawer: Drawer(home: Scaffold(
+  appBar: AppBar(...)
+  drawer: Drawer(...)
+  body: const HomeScreen(),
+),
     child: ListView(
       padding: EdgeInsets.zero,
       children: [
