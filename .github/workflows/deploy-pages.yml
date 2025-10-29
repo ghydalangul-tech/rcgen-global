@@ -28,7 +28,7 @@ jobs:
           flutter pub get
 
       - name: Build web
-        run: flutter build web --release --base-href=/
+        run: flutter build web --release --base-href "/rcgen-global/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
