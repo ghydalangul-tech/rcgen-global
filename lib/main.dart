@@ -10,10 +10,33 @@ class RcgenGlobalApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(
-  appBar: AppBar(
-    title: const Text('RCGEN Global'),
+    return MaterialAppreturn MaterialApp(
+  title: 'RCGEN Global',
+  theme: ThemeData(
+    primarySwatch: Colors.blue,
   ),
+  home: Scaffold(
+    appBar: AppBar(
+      title: const Text('RCGEN Global'),
+    ),
+    drawer: Drawer(
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: const [
+          DrawerHeader(
+            decoration: BoxDecoration(color: Colors.blue),
+            child: Text(
+              'RCGEN Global',
+              style: TextStyle(color: Colors.white, fontSize: 24),
+            ),
+          ),
+        ],
+      ),
+    ),
+    body: const HomeScreen(),
+  ),
+);
+
   drawer: Drawer(home: Scaffold(
   appBar: AppBar(...)
   drawer: Drawer(...)
