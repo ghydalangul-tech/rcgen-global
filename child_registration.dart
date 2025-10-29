@@ -1,4 +1,4 @@
-// lib/pages/child_registration.dart
+// lib/screens/child_registration.dart
 import 'package:flutter/material.dart';
 import 'dart:html' as html; // for launching a mailto on Flutter Web
 
